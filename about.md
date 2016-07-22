@@ -6,7 +6,7 @@ title: About
 
    这是我的个人博客，现在只是一名前端菜鸟，希望能把我一路成长记录下来，留作纪念，与人分享。
    我的[github](http://github.com/huguobo), 
-   个人简历 [CV](http://hugoubo.github.io/myResume)。
+   个人简历 [CV](http://huguobo.github.io/myResume)。
 
 
    have a nice day. ♥
