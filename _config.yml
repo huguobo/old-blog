@@ -1,23 +1,23 @@
-# Site settings
-title: copper's Blog
-email: huguobo2010@126.com
-description: 日拱一卒 功不唐捐
-# > # this means to ignore newlines until "baseurl:"
-#   Write an awesome description for your new site here. You can edit this
-#   line in _config.yml. It will appear in your document head meta (for
-#   Google search results) and in your feed.xml site description.
+title:            Scribble
+description:      A jekyll theme. Because I scribble.
+url:              # Site url, without a slash at the end.
+signoff:          # Your name.
+disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-github_username:cooper
-permalink: /:year/:month/:day/:title/
-
-# Build settings
-markdown: kramdown
-
-# highlight
-# 本地用rouge, github上用pygments
-# highlighter: pygments
-# highlighter: rouge
-# highlighter: false
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://muan.co
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/muan
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart
