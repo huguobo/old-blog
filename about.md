@@ -2,9 +2,11 @@
 layout: page
 title: About
 ---
+欢迎，我是Cooper [（个人主页）](http://www.huguobo.cn), 一名前端菜鸟.
 
-Give people something to read and get to know you. Here's my attempt: this is [Mu-An](http://muan.co), a designer developer who lives in London at the moment.
+   这是我的个人博客，现在只是一名前端菜鸟，希望能把我一路成长记录下来，留作纪念，与人分享。
+   我的[github](http://github.com/huguobo), 
+   个人简历 [CV](hugoubo.github.io/myResume)。
 
-Tweet at [@muanchiou](http://twitter.com/muanchiou), read my code on [GitHub](http://github.com/muan), see my designs on [Dribbble](http://dribbble.com/muan), find my CV on [LinkedIn](http://uk.linkedin.com/in/muanchiou).
 
-This theme is made by me. You have a nice day. ♥
+   have a nice day. ♥
