@@ -3,7 +3,7 @@ description:      Blog
 mywords:          日拱一卒，功不唐捐
 url:              #
 signoff:          Cooper
-disqus_shortname: CB
+disqus_shortname: #
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
@@ -17,7 +17,6 @@ links:
     external:     true
 permalink:        pretty
 markdown:         redcarpet
-highlighter:      pygments
 redcarpet:
   extensions:
     - smart
