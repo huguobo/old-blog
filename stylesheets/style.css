@@ -9,7 +9,7 @@ body {
   color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 19px;
   padding: 0;
   margin: 0; }
@@ -80,7 +80,7 @@ header {
 
 footer {
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   line-height: 2em;
   margin: auto;
   padding-bottom: 30px;
@@ -94,7 +94,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
@@ -120,8 +120,8 @@ footer {
       zoom: 1;
       *display: inline;
       *vertical-align: auto;
-      padding: 2px 2px;
-      margin-right: 12px;
+      padding: 3px 3px;
+      margin-right: 25px;
       margin-bottom: 6px; }
       #container .block a.main:last-of-type {
         margin-right: 0; }
