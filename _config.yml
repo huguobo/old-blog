@@ -9,11 +9,16 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         About
     url:          /about
-  - name:         HomePage
+  - name:         Home
+    url:         /index.html
+  - name:         Hgb's corner
     url:          http://www.huguobo.cn
     external:     true
   - name:         GitHub
     url:          http://github.com/huguobo
+    external:     true
+  - name:         Subscibe
+    url:         /feed.xml
     external:     true
 permalink:        pretty
 markdown:         redcarpet
