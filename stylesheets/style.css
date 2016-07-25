@@ -108,7 +108,7 @@ footer {
   #container .block {
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
-    padding: 30px 40px 24px;
+    padding: 30px 30px 24px;
     text-align: center; }
     #container .block:first-child, #container .block + .block {
       border-top: 0; }
@@ -121,7 +121,7 @@ footer {
       *display: inline;
       *vertical-align: auto;
       padding: 3px 3px;
-      margin-right: 25px;
+      margin-right: 20px;
       margin-bottom: 6px; }
       #container .block a.main:last-of-type {
         margin-right: 0; }
