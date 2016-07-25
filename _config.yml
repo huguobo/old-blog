@@ -20,6 +20,10 @@ links:
   - name:         Subscibe
     url:         /feed.xml
     external:     true
+  - name:         CV
+    url:          http://huguobo.github.io/myResume
+    external:     true
+  
 permalink:        pretty
 markdown:         redcarpet
 redcarpet:
