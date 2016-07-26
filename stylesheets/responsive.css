@@ -5,7 +5,13 @@
       float: none;
       display: block;
       width: auto;
-      text-align: left; }
+      text-align: center; }
+	body #container ul.posts a{
+		float: none;
+        display: block;
+        width: auto;
+		text-align: center;
+	}
     body #container #ind-instagram, body #container #ind-linkedin {
       display: none; }
     body #container .links, body #container .content {
