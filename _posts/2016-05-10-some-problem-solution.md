@@ -2,7 +2,8 @@
 layout: post
 title: 解决jekyll博客加载慢的问题
 date: 2016-05-10 15:27:31
-
+comment: y
+type: jekyll
 ---
 ##解决jekyll博客加载慢的问题
 >经过好长时间的折腾，在windows下配置好了*jekyll*，配合上自己的*github for windows*。环境上算弄好了，不得不说在windows系统装他们还是蛮艰辛的，之后会整理一下安装过程中需要注意的问题和需要下载的工具发布出来。

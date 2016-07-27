@@ -3,8 +3,7 @@ description:      Blog
 mywords:          日拱一卒，功不唐捐
 url:              #
 signoff:          Cooper
-disqus_shortname: #
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+duoshuo_shortname: huguobo
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 links:
   - name:         About
