@@ -15,7 +15,7 @@ comment: y
 ###1，父级div定义 height 
 
 
-```
+{% highlight javascript %}
     <style type="text/css"> 
     .div1{background:#000080;border:1px solid red;/*解决代码*/height:200px;} 
     .div2{background:#800080;border:1px solid red;height:100px;margin-top:10px} 
@@ -29,7 +29,7 @@ comment: y
     <div class="div2"> 
     div2 
     </div> 
-```
+{% endhighlight %}
 
 
 
@@ -43,7 +43,7 @@ comment: y
 
 ###2，结尾处加空div标签 clear:both 
 
-```
+{% highlight javascript %}
     <style type="text/css"> 
     .div1{background:#000080;border:1px solid red} 
     .div2{background:#800080;border:1px solid red;height:100px;margin-top:10px} 
@@ -60,7 +60,7 @@ comment: y
     <div class="div2"> 
     div2 
     </div> 
-```
+{% endhighlight %}
 
 原理：添加一个空div，利用css提高的clear:both清除浮动，让父级div能自动获取到高度 
 
@@ -72,7 +72,7 @@ comment: y
 
 ###3，父级div定义 伪类:after 和 zoom 
 
-```
+{% highlight javascript %}
 	<style type="text/css"> 
 	.div1{background:#000080;border:1px solid red;} 
 	.div2{background:#800080;border:1px solid red;height:100px;margin-top:10px} 
@@ -89,7 +89,7 @@ comment: y
 	<div class="div2"> 
 	div2 
 	</div> 
-```
+{% endhighlight %}
 原理：IE8以上和非IE浏览器才支持:after，原理和方法2有点类似，zoom(IE转有属性)可解决ie6,ie7浮动问题 
 
 优点：浏览器支持好、不容易出现怪问题（目前：大型网站都有使用，如：腾迅，网易，新浪等等） 
@@ -100,7 +100,7 @@ comment: y
 
 ###4，父级div定义 overflow:hidden 
 
-```
+{% highlight javascript %}
 	<style type="text/css"> 
 	.div1{background:#000080;border:1px solid red;/*解决代码*/width:98%;overflow:hidden} 
 	.div2{background:#800080;border:1px solid red;height:100px;margin-top:10px;width:98%} 
@@ -114,7 +114,7 @@ comment: y
 	<div class="div2"> 
 	div2 
 	</div> 
-```
+{% endhighlight %}
 
 原理：必须定义width或zoom:1，同时不能定义height，使用overflow:hidden时，浏览器会自动检查浮动区域的高度 
 
@@ -126,7 +126,7 @@ comment: y
 
 ###5，父级div定义 overflow:auto 
 
-```
+{% highlight javascript %}
 	<style type="text/css"> 
 	.div1{background:#000080;border:1px solid red;/*解决代码*/width:98%;overflow:auto} 
 	.div2{background:#800080;border:1px solid red;height:100px;margin-top:10px;width:98%} 
@@ -140,7 +140,7 @@ comment: y
 	<div class="div2"> 
 	div2 
 	</div> 
-```
+{% endhighlight %}
 
 原理：必须定义width或zoom:1，同时不能定义height，使用overflow:auto时，浏览器会自动检查浮动区域的高度 
 
@@ -152,7 +152,7 @@ comment: y
 
 ###6，父级div 也一起浮动 
 
-```
+{% highlight javascript %}
 	<style type="text/css"> 
 	.div1{background:#000080;border:1px solid red;/*解决代码*/width:98%;margin-bottom:10px;float:left} 
 	.div2{background:#800080;border:1px solid red;height:100px;width:98%;/*解决代码*/clear:both} 
@@ -166,7 +166,7 @@ comment: y
 	<div class="div2"> 
 	div2 
 	</div> 
-```
+{% endhighlight %}
 
 原理：所有代码一起浮动，就变成了一个整体 
 
@@ -178,7 +178,7 @@ comment: y
 
 ###7，父级div定义 display:table 
 
-```
+{% highlight javascript %}
 	<style type="text/css"> 
 	.div1{background:#000080;border:1px solid red;/*解决代码*/width:98%;display:table;margin-bottom:10px;} 
 	.div2{background:#800080;border:1px solid red;height:100px;width:98%;} 
@@ -192,7 +192,7 @@ comment: y
 	<div class="div2"> 
 	div2 
 </div> 
-```
+{% endhighlight %}
 原理：将div属性变成表格 
 
 优点：没有优点 
@@ -203,7 +203,7 @@ comment: y
 
 ###8，结尾处加 br标签 clear:both 
 
-```
+{% highlight javascript %}
 	<style type="text/css"> 
 	.div1{background:#000080;border:1px solid red;margin-bottom:10px;zoom:1} 
 	.div2{background:#800080;border:1px solid red;height:100px} 
@@ -219,7 +219,7 @@ comment: y
 	<div class="div2"> 
 	div2 
 	</div> 
-```
+{% endhighlight %}
 原理：父级div定义zoom:1来解决IE浮动问题，结尾处加 br标签 clear:both 
 
 建议：不推荐使用，只作了解。

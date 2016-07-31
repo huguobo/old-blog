@@ -135,7 +135,7 @@ footer {
       height: 20px;
       overflow: hidden; }
 
-.content {
+.content{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -306,6 +306,11 @@ section.post, section > p {
       display: block;
       width: 7px !important;
       white-space: normal; }
+
+  section.post figure{
+	  margin: 0 60px;
+	  text-align:left;
+  }
   section.post li .highlight, section > p li .highlight {
     padding: 0 10px; }
   section.post li p, section > p li p {
