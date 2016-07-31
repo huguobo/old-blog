@@ -12,6 +12,11 @@
         width: auto;
 		text-align: center;
 	}
+	
+	body .content section figure{
+		margin:10px;
+	}
+
     body #container #ind-instagram, body #container #ind-linkedin {
       display: none; }
     body #container .links, body #container .content {
