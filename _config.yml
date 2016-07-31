@@ -25,6 +25,7 @@ links:
   
 permalink:        pretty
 markdown:         redcarpet
+highlight:        pygments
 redcarpet:
   extensions:
     - smart

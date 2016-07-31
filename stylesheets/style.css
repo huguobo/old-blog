@@ -115,7 +115,8 @@ footer {
     #container .block:last-child {
       border-bottom: 0; }
     #container .block a.main {
-      display: inline-block;
+      font-size:1.18em;
+	  display: inline-block;
       vertical-align: baseline;
       zoom: 1;
       *display: inline;
