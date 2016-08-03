@@ -1,7 +1,7 @@
 title:            Cooper's Blog
 description:      Blog
 mywords:          日拱一卒，功不唐捐
-url:              http://localhost:4000
+url:               #
 signoff:          Cooper
 duoshuo_shortname: huguobo
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
@@ -23,7 +23,7 @@ links:
     url:          http://huguobo.github.io/myResume
     external:     true
     
-gems:          [jekyll-paginate]
+gems:           [jekyll-paginate]
 paginate:         15
 paginate_path:   "page:num"
 permalink:        pretty
