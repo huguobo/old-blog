@@ -12,6 +12,10 @@ comment: y
 
 下面总结8种清除浮动的方法（测试已通过 ie chrome firefox opera，后面三种方法只做了解就可以了）： 
 
+
+
+
+
 ###1，父级div定义 height 
 
 

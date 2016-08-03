@@ -10,6 +10,8 @@ links:
     url:          /about
   - name:         Home
     url:         /index.html
+  - name:         List
+    url:         /list
   - name:         Hgb's corner
     url:          http://www.huguobo.cn
     external:     true
@@ -23,8 +25,9 @@ links:
     url:          http://huguobo.github.io/myResume
     external:     true
     
+excerpt_separator:  "\n\n\n\n"
 gems:           [jekyll-paginate]
-paginate:         15
+paginate:         5
 paginate_path:   "page:num"
 permalink:        pretty
 markdown:         redcarpet

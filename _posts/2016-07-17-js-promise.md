@@ -9,6 +9,10 @@ comment: y
 >
 异步模式在web编程中变得越来越重要，对于web主流语言Javascript来说，这种模式实现起来不是很利索，为此，许多Javascript库（比如 jQuery和Dojo）添加了一种称为promise的抽象（有时也称之为deferred）。通过这些库，开发人员能够在实际编程中使用 promise模式。IE官方博客最近发表了一篇文章，详细讲述了如何使用XMLHttpRequest2来实践promise模式。我们来了解一下相关的概念和应用。
 
+
+
+
+
 考虑这样一个例子，某网页存在异步操作（通过XMLHttpRequest2或者 Web Workers）。随着Web 2.0技术的深入，浏览器端承受了越来越多的计算压力，所以“并发”具有积极的意义。对于开发人员来说，既要保持页面与用户的交互不受影响，又要协调页面与异步任务的关系，这种非线性执行的编程要求存在适应的困难。先抛开页面交互不谈，我们能够想到对于异步调用需要处理两种结果——成功操作和失败处理。在成功的调用后，我们可能需要把返回的结果用在另一个Ajax请求中，这就会出现“函数连环套”的情况（在笔者的另一篇文章《NodeJS的异步编程风格》中有详细的解释）。这种情况会造成编程的复杂性。看看下面的代码示例（基于XMLHttpRequest2）：
 {% highlight javascript %}
 function searchTwitter(term, onload, onerror) {

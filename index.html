@@ -6,8 +6,16 @@ layout: index
   
   {% for post in paginator.posts %}
   <li>
-    <small class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </small>
-    <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    <span class="datetime muted" data-time="{{ post.date }}">{{ post.date | date_to_string }} </span>
+    <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+	<div class="label">
+	<div class="excerpt">
+     {{post.excerpt}}
+    </div>
+    <div class="read-all">
+    <a  href="{{ post.url | prepend: site.baseurl }}">Read All</a>
+    </div>
+	</div>
   </li>
  
   {% endfor %}
