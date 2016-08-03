@@ -315,23 +315,6 @@ section.post, section > p {
     padding: 0 10px; }
   section.post li p, section > p li p {
     margin-bottom: 5px; }
-.paginate{
-	  border-top: 1px solid #efefef;
-      padding: 10px;
-      text-align: center;
-    }
-.paginate a {
-      
-	  font-size:0.9em;
-	  display: inline-block;
-      vertical-align: baseline;
-      zoom: 1;
-      *display: inline;
-      *vertical-align: auto;
-      padding: 3px 3px;
-      margin-right: 20px;
-      margin-bottom: 6px;	
-}
 
 .highlight {
   margin: 0;
