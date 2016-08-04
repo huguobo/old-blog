@@ -16,6 +16,21 @@
 	body .content section figure{
 		margin:10px;
 	}
+	body #container .block {     
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    padding: 10px 5px 10px;
+    text-align:center-left; }
+	body #container .block a.main {
+      font-size:1em;
+	  display: inline-block;
+      vertical-align: baseline;
+      zoom: 1;
+      *display: inline;
+      *vertical-align: auto;
+      padding: 3px 3px;
+      margin-right: 4px;
+      margin-bottom: 4px; }
 
     body #container #ind-instagram, body #container #ind-linkedin {
       display: none; }
