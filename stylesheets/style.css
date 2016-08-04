@@ -329,7 +329,9 @@ section.post, section > p {
 .paginate{
 	  border-top: 1px solid #efefef;
       padding: 10px;
-      text-align: center;
+      text-align:center;
+	  margin: 0;
+      padding: 0;
     }
 .paginate a {
       
@@ -340,8 +342,7 @@ section.post, section > p {
       *display: inline;
       *vertical-align: auto;
       padding: 3px 3px;
-      margin-right: 20px;
-      margin-bottom: 6px;	
+	
 }
 
 .highlight {
