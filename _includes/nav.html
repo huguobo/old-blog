@@ -1,0 +1,12 @@
+ <nav class="nav default">
+   <ul>
+  {% for link in site.links %}
+      
+   <li class="nav__item">
+   <a target="{% if link.external %}_blank{% else %}_top{% endif %}"
+       class="main" 
+       href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">{{ link.name }}</a>
+   </li> 
+  {% endfor %}
+  </ul>
+  </nav>

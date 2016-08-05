@@ -19,8 +19,8 @@
 	body #container .block {     
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
-    padding: 10px 5px 10px;
-    text-align:center-left; }
+    padding: 15px 6px 15px;
+    text-align:center; }
 	body #container .block a.main {
       font-size:1.1em;
 	  display: inline-block;
@@ -29,7 +29,7 @@
       *display: inline;
       *vertical-align: auto;
       padding: 3px 3px;
-      margin-right: 4px;
+      margin-right: 5px;
       margin-bottom: 4px; }
 
     body #container #ind-instagram, body #container #ind-linkedin {

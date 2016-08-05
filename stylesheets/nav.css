@@ -1,0 +1,19 @@
+.nav {
+  background-color: #1f253d;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  margin: 25px auto; }
+  .nav li{
+	  display: inline-block;
+  }
+  .nav.default {
+    line-height: 35px;
+    height: 35px; }
+  .nav.twiceBorder, .nav.underline, .nav.overline {
+    line-height: 30px;
+    height: 30px; }
+  .nav a {
+    padding: 0 10px; 
+    text-decoration: none; }
