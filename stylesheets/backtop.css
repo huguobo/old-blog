@@ -1,7 +1,7 @@
 .back-to-top {
   position: fixed;
   left: 50%;
-  margin-left: 600px;
+  margin-left: 580px;
   bottom: 37px;
   background-color: #f8f8fd;
   visibility: hidden;
@@ -28,6 +28,7 @@
   .back-to-top {
     left: 50%;
     margin-left: 45.5%; } }
+	
 @media screen and (max-width: 770px) {
   .back-to-top {
     right: 2.5%;
