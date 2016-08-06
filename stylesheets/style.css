@@ -87,7 +87,21 @@ footer {
   text-align: center; }
   footer * {
     color: #797979; }
-
+/*contact*/
+footer .contact {
+   display: inline-block;
+}
+footer .contact a{
+	color: #ccc;
+}
+footer .contact a:hover{
+	color: #fff;
+}
+footer .contact a i{
+	 margin: 0 5px;
+     font-size: 20px;
+}
+/*endcontact*/
 #container {
   *zoom: 1;
   -webkit-box-sizing: border-box;

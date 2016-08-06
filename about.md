@@ -38,6 +38,7 @@ title: About
  10. 添加返回顶部模块，backtotop.html。
  BUG：在github上托管的博客样式不起作用，通过mybacktop.css和responsive.css修改解决。
  11. 更新了新的换页样式。
+ 12. foot添加contact me，使用了font-awesome css 图标。CDN方式
 
 ###待改进
 

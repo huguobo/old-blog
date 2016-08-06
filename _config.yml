@@ -5,6 +5,13 @@ url:               #
 signoff:          Cooper
 duoshuo_shortname: huguobo
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+
+email:  huguobo2010@126.com
+github:  http://github.com/huguobo
+psite:  http://huguobo.cn
+weibo:  #
+douban:  #
+
 links:
   - name:         About
     url:          /about
@@ -23,8 +30,7 @@ links:
     external:     true
   - name:         CV
     url:          http://huguobo.github.io/myResume
-    external:     true
-    
+    external:     true 
 excerpt_separator:  "\n\n\n\n"
 gems:           [jekyll-paginate]
 paginate:         5
