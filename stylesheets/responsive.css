@@ -42,3 +42,18 @@
           padding: 0 15px; }
         body #container .links section.post > ul, body #container .links section.post > ol, body #container .content section.post > ul, body #container .content section.post > ol {
           padding: 0 30px; } }
+@media (max-width: 1200px) and (min-width: 770px) {
+  .back-to-top {
+    left: 50%;
+    margin-left: 45.5%; } }
+@media and (max-width: 770px) {
+  .back-to-top {
+    right: 2.5%;
+    left: auto;
+    margin-left: 0px; }
+    .back-to-top a {
+      width: 33px;
+      height: 33px;
+      line-height: 33px;
+      text-align: center;
+      font-size: 12px; } }
