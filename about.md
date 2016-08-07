@@ -24,7 +24,7 @@ title: About
  3. 完成responsive.css的编写，使得博客在手机登移动设备上显示正常。
  4. 主页导航加入hgb’s corner，目前为 home about hgb's corner
 
-####2016
+###2016
 
  1. 网站图片和介绍等静态资源完善，优化SEO。
  2. 添加谷歌font
@@ -39,6 +39,7 @@ title: About
  BUG：在github上托管的博客样式不起作用，通过mybacktop.css和responsive.css修改解决。
  11. 更新了新的换页样式。
  12. foot添加contact me，使用了font-awesome css 图标。CDN方式
+***
 
 ###待改进
 
@@ -50,7 +51,6 @@ title: About
 - 整体结构优化。JS压缩归并，CSS冗余等等
   (从无到有，没有很系统的对资源进行整合和分类，没有从一开始使用GULP和sass等工具开发)
 - balabalabala~~~~~~~
-
 
 
 安静的分割线
