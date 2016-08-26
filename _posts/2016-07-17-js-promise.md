@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 【转】Promise模式
+title: Promise模式学习
 date: 2016-07-17 20:25:00
 type: js promise
 comment: y
