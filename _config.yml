@@ -1,13 +1,13 @@
 title:            Cooper's Blog
 description:       Blog
 mywords:          A Stupid Front-End Engineer
-url:               #
+url:              https://huguobo.github.io
 signoff:          Cooper
 duoshuo_shortname: huguobo
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 email:  huguobo2010@126.com
-github:  http://github.com/huguobo
+github:  https://github.com/huguobo
 psite:  http://huguobo.cn
 weibo:  http://weibo.com/CooberHu
 douban:  #
@@ -16,20 +16,20 @@ links:
   - name:         About
     url:          /about
   - name:         Home
-    url:         /index.html
+    url:          /index.html
   - name:         List
-    url:         /list
+    url:          /list
   - name:         Hgb's corner
     url:          http://www.huguobo.cn
     external:     true
   - name:         GitHub
-    url:          http://github.com/huguobo
+    url:          https://github.com/huguobo
     external:     true
   - name:         Subscibe
     url:         /feed.xml
     external:     true
   - name:         CV
-    url:          http://huguobo.github.io/myResume
+    url:          https://huguobo.github.io/myResume
     external:     true 
 excerpt_separator:  "\n\n\n\n"
 gems:           [jekyll-paginate]
