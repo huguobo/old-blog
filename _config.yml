@@ -1,6 +1,6 @@
 title:            Cooper's Blog
 description:       Blog
-mywords:          A Stupid Front-End Engineer
+mywords:          A Front-End Engineer
 url:              #
 signoff:          Cooper
 duoshuo_shortname: huguobo
@@ -8,7 +8,7 @@ google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
 email:  huguobo2010@126.com
 github:  https://github.com/huguobo
-psite:  http://huguobo.cn
+psite:  #
 weibo:  http://weibo.com/CooberHu
 douban:  #
 
