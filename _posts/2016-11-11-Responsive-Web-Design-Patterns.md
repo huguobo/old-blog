@@ -1,9 +1,9 @@
 ---
-layout： post
-title: 多设备布局：响应式设计模型一
+layout: post
+title: 多设备布局:响应式设计模型一
 date: 2016-11-11 22:00:00
-type:  type
-comment:y
+type: Responsive-Web-Design-Patterns
+comment: y
 ---
 
 >虽然响应式网页设计样式正在快速发展，但能够完全兼容桌面级设备与移动设备的成熟样式却是屈指可数。
