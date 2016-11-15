@@ -45,7 +45,7 @@ comment: y
 
 - animation中增加了一个keyframes属性来定义动画的时间轴和关键帧 
 - animation-name 绑定到选择器的 keyframe 名称 
-- animation-duration 成动画所花费的时间 
+- animation-duration 动画所花费的时间 
 - animation-timing-function 规定动画的速度曲线 
 - animation-delay 规定在动画开始之前的延迟。 
 - animation-iteration-count 规定动画应该播放的次数 
