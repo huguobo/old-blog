@@ -30,3 +30,5 @@ cooper's Blog
 
 Like it? [Tell me](http://twitter.com/huguobo).<br/>
 Question?发送邮件到huguobo2010@126.com.
+
+测试git push
