@@ -9,7 +9,8 @@ title: About
 ####1.About：博主自白和博客内容介绍
 ####2.Home：主页
 ####3.List：文章列表，方便快速查找文章，待添加分类和标签功能~
-####4.Hgb's corner:博主之前自己备案的个人网站[http://www.huguobo.cn](http://www.huguobo.cn "Hgb‘s Corner")
+####4.  <del> Hgb's corner:博主之前自己备案的个人网站 [http://www.huguobo.cn](http://www.huguobo.cn "Hgb‘s Corner")</del>
+**注意注意！！博主没钱续费已经过期，正在筹划购买新的域名**
 ####5.Github：我的Github链接，[http://www.github.com/huguobo](http://www.github.com/huguobo "myGithub")
 ####6.Subscribe:RSS订阅按钮（自作多情加上的），由于使用XML编写，非IE浏览器可能会直接看到源码 ，但是差不多啦。（有待改进，目前只会这种方式发布订阅~）
 ####7.CV:我的个人简历，要找工作啦，求认领~
@@ -39,6 +40,7 @@ title: About
  BUG：在github上托管的博客样式不起作用，通过mybacktop.css和responsive.css修改解决。
  11. 更新了新的换页样式。
  12. foot添加contact me，使用了font-awesome css 图标。CDN方式
+ 13. 域名到期未续费，删除hgb‘s coner导航
 ***
 
 ###待改进
