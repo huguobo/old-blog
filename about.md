@@ -13,7 +13,7 @@ title: About
 **注意注意！！博主没钱续费已经过期，正在筹划购买新的域名**
 ####5.Github：我的Github链接，[http://www.github.com/huguobo](http://www.github.com/huguobo "myGithub")
 ####6.Subscribe:RSS订阅按钮（自作多情加上的），由于使用XML编写，非IE浏览器可能会直接看到源码 ，但是差不多啦。（有待改进，目前只会这种方式发布订阅~）
-####7.CV:我的个人简历，要找工作啦，求认领~
+####7.CV:我的个人简历，要找工作啦，求认领~~~~~
 ***
 
 ###Cooper's Blog 更新日志
