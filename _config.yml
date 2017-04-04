@@ -14,7 +14,7 @@ douban:  #
 
 links:
   - name:         About
-    url:         https://huguobo.github.io/about
+    url:         /about
   - name:         Home
     url:          /index.html
   - name:         List
