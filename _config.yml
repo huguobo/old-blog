@@ -1,7 +1,7 @@
 title:            Cooper's Blog
 description:       Blog
 mywords:          A Front-End Engineer
-url:              https://huguobo.github.io/
+url:              #
 signoff:          Cooper
 duoshuo_shortname: huguobo
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
@@ -14,11 +14,11 @@ douban:  #
 
 links:
   - name:         About
-    url:         /about.md
+    url:         /about
   - name:         Home
     url:          /index.html
   - name:         List
-    url:         /list.html
+    url:         /list
   - name:         GitHub
     url:          https://github.com/huguobo
     external:     true
