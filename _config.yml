@@ -18,7 +18,7 @@ links:
   - name:         Home
     url:          /index.html
   - name:         List
-    url:         /list
+    url:         /list.html
   - name:         GitHub
     url:          https://github.com/huguobo
     external:     true
