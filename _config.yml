@@ -14,7 +14,7 @@ douban:  #
 
 links:
   - name:         About
-    url:         /about
+    url:         /about.md
   - name:         Home
     url:          /index.html
   - name:         List
