@@ -3,4 +3,4 @@ _site/
 .ruby-version
 _posts/.DS_Store
 
-.DS_Store
+*.DS_Store
