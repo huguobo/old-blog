@@ -27,14 +27,11 @@ links:
     external:     true
   - name:         CV
     url:          https://huguobo.github.io/myResume
-    external:     true 
+    external:     true
 excerpt_separator:  "\n\n\n\n"
 gems:           [jekyll-paginate]
 paginate:         5
 paginate_path:   "page:num"
 permalink:        pretty
-markdown:         redcarpet
+markdown:         kramdown
 highlight:        pygments
-redcarpet:
-  extensions:
-    - smart
