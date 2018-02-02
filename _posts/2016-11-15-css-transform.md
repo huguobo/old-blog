@@ -8,7 +8,7 @@ comment: y
 
 >CSS3中关于Transform，Transtion和Animate的理解
 
-###1.Transform
+### 1.Transform
 
 **transform 是实现的是元素的变形（静态）**
 
@@ -26,7 +26,7 @@ comment: y
 
 
 
-###2. Transition
+### 2. Transition
 
 **transition是实现的是动画的过程**
 
@@ -39,7 +39,7 @@ comment: y
 - transition-delay 动画延迟多久才开始
 
 ---
-###3. Animation
+### 3. Animation
 
 **animation是transition的一个拓展**
 

@@ -2,30 +2,31 @@
 layout: page
 title: About
 ---
-###Cooper's Blog
-欢迎，我是Cooper [（个人主页）](http://www.huguobo.cn),目前是一名计算机专业的研究僧，同时也是一名前端菜鸟（菜到我自己都怕ORZ），但求每天都能进步一些，这波就不亏：）。<br/>**日拱一卒，功不唐捐**。这个博客将记录我的成长过程(快毕业了，实验室比较忙，可能不会更的很频繁：(),反正也没人看，加油吧！！！
+### Cooper's Blog
+欢迎，我是Cooper [（个人主页）](http://www.huguobo.cn),曾经是一名计算机专业的研究僧，也一直是一名前端菜鸟（菜到我自己都怕ORZ），但求每天都能进步一些，这波就不亏：）。<br/>**日拱一卒，功不唐捐**。这个博客将记录我的成长过程(快毕业了，实验室比较忙，可能不会更的很频繁：(),反正也没人看，加油吧！！！ 更新：现在已经工作了，就职于美团点评
+
 ***
-###内容和链接设置：持续充实中
-####1.About：博主自白和博客内容介绍
-####2.Home：主页
-####3.List：文章列表，方便快速查找文章，待添加分类和标签功能~
-####4.  <del> Hgb's corner:博主之前自己备案的个人网站 [http://www.huguobo.cn](http://www.huguobo.cn "Hgb‘s Corner")</del>
+### 内容和链接设置：持续充实中
+#### 1.About：博主自白和博客内容介绍
+#### 2.Home：主页
+#### 3.List：文章列表，方便快速查找文章，待添加分类和标签功能~
+#### 4.  <del> Hgb's corner:博主之前自己备案的个人网站 [http://www.huguobo.cn](http://www.huguobo.cn "Hgb‘s Corner")</del>
 **注意注意！！博主没钱续费已经过期，正在筹划购买新的域名**
-####5.Github：我的Github链接，[http://www.github.com/huguobo](http://www.github.com/huguobo "myGithub")
-####6.Subscribe:RSS订阅按钮（自作多情加上的），由于使用XML编写，非IE浏览器可能会直接看到源码 ，但是差不多啦。（有待改进，目前只会这种方式发布订阅~）
-####7.CV:个人履历，目前就职于美团点评。
+#### 5.Github：我的Github链接，[http://www.github.com/huguobo](http://www.github.com/huguobo "myGithub")
+#### 6.Subscribe:RSS订阅按钮（自作多情加上的），由于使用XML编写，非IE浏览器可能会直接看到源码 ，但是差不多啦。（有待改进，目前只会这种方式发布订阅~）
+#### 7.CV:个人履历，目前就职于美团点评。
 ***
 
-###Cooper's Blog 更新日志
+### Cooper's Blog 更新日志
 
-###2015
+### 2015
 
  1. Github+jekyll环境安装完成，博客雏形搭建完成
  2. 完成基本的博客布局，includes的模块编写完成，layout三种基本样式也定义完成，style.css完成。初步设计为简洁的以浅白色为底色的居中博客样式。
  3. 完成responsive.css的编写，使得博客在手机登移动设备上显示正常。
  4. 主页导航加入hgb’s corner，目前为 home about hgb's corner
 
-###2016
+### 2016
 
  1. 网站图片和介绍等静态资源完善，优化SEO。
  2. 添加谷歌font
@@ -43,7 +44,7 @@ title: About
  13. 域名到期未续费，删除hgb‘s coner导航
 ***
 
-###2017
+### 2017
 1. 很久没更新了，想重新拾起来，记录一下平时碰到的问题 
 ###待改进
 
@@ -56,6 +57,10 @@ title: About
   (从无到有，没有很系统的对资源进行整合和分类，没有从一开始使用GULP和sass等工具开发)
 - balabalabala~~~~~~~
 
+### 2018
+- 工作了
+- 绑定新域名huguobo.site
+- 后续打算优化一下，或者做个新的blog
 
 安静的分割线
 ***
