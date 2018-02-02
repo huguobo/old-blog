@@ -19,9 +19,11 @@ comment: y
 
 ### 方案一 :`margin:auto`
 
-在明确容器元素的宽高和边界的情况下。子元素设置为绝对定位`position:absolute`结合`margin:auto`实现。
+在明确容器元素的边界和子元素的宽高的情况下。子元素设置为绝对定位`position:absolute`结合`margin:auto`实现。
 
 [代码示例](https://jsbin.com/giqukov/1/edit?html,css,output)
+
+
 
 ### 方案二：table布局
 
@@ -33,6 +35,8 @@ comment: y
 2. 居中元素：display: table-cell + vertical-align: middle实现垂直居中
 
 [代码示例](https://jsbin.com/yezikav/1/edit?html,css,output)
+
+
 
 ###  方案三： Flex
 
@@ -48,6 +52,8 @@ Flex使用方便，及其灵活。但是不兼容IE8, 移动端Android4.2一下�
 
 还有这个[flex小游戏](http://flexboxfroggy.com/)
 
+
+
 ### 方案四：line-box
 
 这种方法兼容性较好，不需要明确居中元素的宽高。但是需要额外的伪元素，且原理不易理解。
@@ -62,17 +68,21 @@ Flex使用方便，及其灵活。但是不兼容IE8, 移动端Android4.2一下�
 
 [查看实例代码](http://jsbin.com/yisehi/2/edit?html,css,output)
 
+
+
 ### 方案五：绝对定位和transform
 
 1. 通过绝对定位将居中元素的左上角移动到包含块的中心
 
 （top, left: 偏移的百分比是来自包含块的height和wdith）
 
-2. 再利用`transform将**居中元素**的中心与**容器元素**的中心对齐`
+2. 再利用transform将**居中元素**的中心与**容器元素**的中心对齐
 
 这种方法不需要明确居中元素的宽高，不兼容IE8
 
 [查看实例代码](http://jsbin.com/jucusih/edit?html,css,output)
+
+
 
 ### 方案六：负margin和绝对定位实现
 
