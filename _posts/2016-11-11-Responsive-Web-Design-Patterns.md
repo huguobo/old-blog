@@ -8,18 +8,18 @@ comment: y
 
 >虽然响应式网页设计样式正在快速发展，但能够完全兼容桌面级设备与移动设备的成熟样式却是屈指可数。
 
-#响应式设计模型
+# 响应式设计模型
 大多数的响应式网页设计可以归纳为五种模式：mostly fluid, column drop, layout shifter, tiny tweaks 和 off canvas。一些情况下，页面可能会采用组合设计模式，例如同时采用 column drop 与 off canvas。 这些样式最初都是由 Luke Wroblewski 定义的，他们为设计响应式式页面提供了一个坚实的基础。
 
 
 
 
 
-###设计模型
+### 设计模型
 
 为了创建简洁易懂的示例，下面提到的每一个案例都是基于flexbox通过真实的标签创建的, 主要是在一个主 div内包含三个内容 div。 每个示例都由定义最小视图开始，并在必要的时候加入响应节点（breakpoint）。 flexbox 布局模式 能很好的支持现在的主流浏览，尽管为了最佳效果你可能需要依赖特定的前缀。
 
-###大体流动行模型
+### 大体流动行模型
 
 Mostly fluid 样式主要由流体式栅格（fluid grid）构成。 无论是在大尺寸或者中等大小屏幕，它都能保持尺寸不变而仅仅只是调整边距以适应更宽的屏幕。在小屏幕上，流体式栅格布局会将主要内容重新排版，使栏目垂直堆栈排列。使用流体式栅格的一个最主要优点是通常只需要在大屏幕与小屏幕之间设置一个响应点即可。
 
@@ -34,24 +34,24 @@ Mostly fluid 样式主要由流体式栅格（fluid grid）构成。 无论是�
       -webkit-flex-flow: row wrap;
       flex-flow: row wrap;
     }
-
+    
     .c1, .c2, .c3 {
       width: 100%;
     }
-
+    
     @media (min-width: 600px) {
       .c1 {
         width: 60%;
         -webkit-order: 2;
         order: 2;
       }
-
+    
       .c2 {
         width: 40%;
         -webkit-order: 1;
         order: 1;
       }
-
+    
       .c3 {
         width: 100%;
         -webkit-order: 3;
@@ -64,7 +64,7 @@ Mostly fluid 样式主要由流体式栅格（fluid grid）构成。 无论是�
       .c2 {
         width: 20%;
       }
-
+    
       .c3 {
         width: 20%;
       }
@@ -85,22 +85,22 @@ Layout shifter布局是响应能力最强的布局样式，它通过多个响应
       -webkit-flex-flow: row wrap;
       flex-flow: row wrap;
     }
-
+    
     .c1, .c2, .c3, .c4 {
       width: 100%;
     }
-
+    
     @media (min-width: 600px) {
       .c1 {
         width: 25%;
       }
-
+    
       .c4 {
         width: 75%;
       }
-
+    
     }
-
+    
     @media (min-width: 800px) {
       .container {
         width: 800px;
@@ -110,7 +110,7 @@ Layout shifter布局是响应能力最强的布局样式，它通过多个响应
     }
 {% endhighlight %}
 
-###掉落列模型
+### 掉落列模型
 
 对于全屏多栏目布局来说，column drop能够简单地在屏幕宽度变窄以致于容不下太多内容时自动纵向排列栏目，最终使每一个栏目都垂直堆栈排列。在这种布局样式下，响应点可以根据页面内容使用各种设计。
 
@@ -126,24 +126,24 @@ Layout shifter布局是响应能力最强的布局样式，它通过多个响应
       -webkit-flex-flow: row wrap;
       flex-flow: row wrap;
     }
-
+    
     .c1, .c2, .c3 {
       width: 100%;
     }
-
+    
     @media (min-width: 600px) {
       .c1 {
         width: 60%;
         -webkit-order: 2;
         order: 2;
       }
-
+    
       .c2 {
         width: 40%;
         -webkit-order: 1;
         order: 1;
       }
-
+    
       .c3 {
         width: 100%;
         -webkit-order: 3;
@@ -156,12 +156,12 @@ Layout shifter布局是响应能力最强的布局样式，它通过多个响应
       .c2 {
         width: 20%;
       }
-
+    
       .c3 {
         width: 20%;
       }
     }
 {% endhighlight %}    
- 
- ----
+
+----
  未完待续
