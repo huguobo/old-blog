@@ -31,7 +31,7 @@ type: css
 
 这种布局也叫**双飞翼布局**。首先，中间的主体要使用双层标签。外层`div`宽度`100%`显示，并且浮动（本例左浮动，下面所述依次为基础），内层`div`为真正的主体内容，含有左右`210`像素的`margin`值。左栏与右栏都是采用`margin`负值定位的，左栏左浮动，`margin-left`为`-100%`，由于前面的div宽度100%与浏览器，所以这里的`-100%` `margin`值正好使左栏`div`定位到了页面的左侧；右侧栏也是左浮动，其`margin-left`也是负值，大小为其本身的宽度即`200`像素。
 
-[实例代码](http://jsbin.com/zigalom/2/edit?html,css,output)
+[实例代码](https://jsbin.com/cobice/1/edit?html,css,output)
 
 
 
