@@ -3,8 +3,6 @@ layout: post
 title: FE前端入门系列-CSS垂直居中
 date: 2018-02-02 16:50:00
 type: css
-comment: y
-
 ---
 
 > css居中在实际项目中会平凡的使用到，根据实际场景使用的方案也不尽相同，总结一下。
