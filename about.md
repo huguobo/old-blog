@@ -3,19 +3,8 @@ layout: page
 title: About
 ---
 ### Cooper's Blog
-欢迎，我是Cooper [（个人主页）](http://www.huguobo.cn),曾经是一名计算机专业的研究僧，也一直是一名前端菜鸟（菜到我自己都怕ORZ），但求每天都能进步一些，这波就不亏：）。<br/>**日拱一卒，功不唐捐**。这个博客将记录我的成长过程(快毕业了，实验室比较忙，可能不会更的很频繁：(),反正也没人看，加油吧！！！ 更新：现在已经工作了，就职于美团点评
-
-***
-### 内容和链接设置：持续充实中
-#### 1.About：博主自白和博客内容介绍
-#### 2.Home：主页
-#### 3.List：文章列表，方便快速查找文章，待添加分类和标签功能~
-#### 4.  <del> Hgb's corner:博主之前自己备案的个人网站 [http://www.huguobo.cn](http://www.huguobo.cn "Hgb‘s Corner")</del>
-**注意注意！！博主没钱续费已经过期，正在筹划购买新的域名**
-#### 5.Github：我的Github链接，[http://www.github.com/huguobo](http://www.github.com/huguobo "myGithub")
-#### 6.Subscribe:RSS订阅按钮（自作多情加上的），由于使用XML编写，非IE浏览器可能会直接看到源码 ，但是差不多啦。（有待改进，目前只会这种方式发布订阅~）
-#### 7.CV:个人履历，目前就职于美团点评。
-***
+欢迎，我是Cooper，是一名计算机专业的研究僧 。
+更新：现在已经工作了，就职于美团点评。
 
 ### Cooper's Blog 更新日志
 
