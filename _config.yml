@@ -2,6 +2,7 @@ title:            Cooper's Blog
 description:       Blog
 mywords:          A Front-End Engineer
 url:              #
+baseurl:          https://cooperhu.com/old-blog/
 signoff:          Cooper
 duoshuo_shortname: huguobo
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
